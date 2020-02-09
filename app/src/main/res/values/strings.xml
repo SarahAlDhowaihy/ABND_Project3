@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <!--Questions-->
+    <string name="Question1"> What does HTML stand for? </string> <!-- Edit -->
+    <string name="Question2"> What is the correct HTML element for inserting a line break? </string>
+    <string name="Question3"> What is the correct HTML for creating a hyperlink? </string>
+    <string name="Question4"> HTML comments start with /&lt;!-- and end with —-&gt; </string> <!--T OR F-->
+    <string name="Question5"> Select the right input type in HTML? </string> <!--CheckBox-->
+    <!--Answers-->
+    <string name="hintAnswer1">Enter Your Answer (each word start by capital latter) =)</string>
+    <!--RadioButton Answers q2
+    name stander for q2 = Question two , a1 = Answer one-->
+    <string name="q2a1">&lt;break&gt;</string>
+    <string name="q2a2">&lt;br&gt;</string> <!-- Correct Answer -->
+    <string name="q2a3">&lt;lb&gt;</string>
+    <!-- End RadioButton Answers q2-->
+    <!--RadioButton Answers q3-->
+    <string name="q3a1">&lt;a&gt;http://www.w3schools.com&lt;/a&gt;</string>
+    <string name="q3a2">&lt;a url="http://www.w3schools.com"&gt;W3Schools.com&lt;/a&gt;</string>
+    <string name="q3a3">&lt;a href="http://www.w3schools.com"&gt;W3Schools&lt;/a&gt;</string> <!-- Correct Answer -->
+    <!-- End RadioButton Answers q3-->
+    <!--RadioButton Answers q4-->
+    <string name="q4a1">True</string> <!-- Correct Answer -->
+    <string name="q4a2">False</string>
+    <!-- End RadioButton Answers q4-->
+    <!-- CheckBox Answers q5-->
+    <string name="q5a1"> url </string> <!-- Correct Answer -->
+    <string name="q5a2"> Telephone </string>
+    <string name="q5a3"> range </string> <!-- Correct Answer -->
+    <string name="q5a4"> tel </string><!-- Correct Answer -->
+    <string name="q5a5"> week</string><!-- Correct Answer -->
+    <!-- End CheckBox Answers q5-->
+    <string name="button">Submit</string>
+</resources>
+

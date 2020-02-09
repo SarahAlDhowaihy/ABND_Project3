@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Q1 start-->
+        <LinearLayout style="@style/LinerLayoutStyle">
+            <TextView
+                android:text="@string/Question1"
+                style="@style/Questions"/>
+            <EditText
+                android:hint="@string/hintAnswer1"
+                style="@style/Answers"
+                android:id="@+id/Answer1"/>
+        </LinearLayout>
+        <!--Q1 End -->
+        <!--Q2 start-->
+        <LinearLayout style="@style/LinerLayoutStyle">
+            <TextView
+                android:text="@string/Question2"
+                style="@style/Questions"/>
+            <RadioGroup style="@style/RadioButton_Style"  >
+                <RadioButton style="@style/Answers"
+                    android:text="@string/q2a1"
+                    android:id="@+id/q2a1"
+                    android:onClick="onRadioButtonClickedQ2"/>
+                <RadioButton style="@style/Answers"
+                    android:text="@string/q2a2"
+                    android:id="@+id/q2a2"
+                    android:onClick="onRadioButtonClickedQ2"/>
+                <RadioButton style="@style/Answers"
+                    android:text="@string/q2a3"
+                    android:id="@+id/q2a3"
+                    android:onClick="onRadioButtonClickedQ2"/>
+            </RadioGroup>
+        </LinearLayout>
+        <!--Q2 End -->
+        <!--Q3 start-->
+        <LinearLayout style="@style/LinerLayoutStyle">
+            <TextView
+                android:text="@string/Question3"
+                style="@style/Questions"/>
+            <RadioGroup style="@style/RadioButton_Style" >
+                <RadioButton style="@style/Answers"
+                    android:text="@string/q3a1"
+                    android:id="@+id/q3a1"
+                    android:onClick="onRadioButtonClickedQ3"/>
+                <RadioButton style="@style/Answers"
+                    android:text="@string/q3a2"
+                    android:id="@+id/q3a2"
+                    android:onClick="onRadioButtonClickedQ3"/>
+                <RadioButton style="@style/Answers"
+                    android:text="@string/q3a3"
+                    android:id="@+id/q3a3"
+                    android:onClick="onRadioButtonClickedQ3"/>
+            </RadioGroup>
+        </LinearLayout>
+        <!--Q3 End -->
+        <!--Q4 start-->
+        <LinearLayout style="@style/LinerLayoutStyle">
+            <TextView
+                android:text="@string/Question4"
+                style="@style/Questions"/>
+            <RadioGroup style="@style/RadioButton_Style" >
+                <RadioButton style="@style/Answers"
+                    android:text="@string/q4a1"
+                    android:id="@+id/q4a1"
+                    android:onClick="onRadioButtonClickedQ4"/>
+                <RadioButton style="@style/Answers"
+                    android:text="@string/q4a2"
+                    android:id="@+id/q4a2"
+                    android:onClick="onRadioButtonClickedQ4"/>
+            </RadioGroup>
+        </LinearLayout>
+        <!--Q4 End -->
+        <!--Q5 start-->
+        <LinearLayout style="@style/LinerLayoutStyle">
+            <TextView style="@style/Questions"
+                android:text="@string/Question5"
+                android:layoutDirection="ltr"/>
+            <CheckBox style="@style/Answers"
+                android:text="@string/q5a1"
+                android:layoutDirection="ltr"
+                android:id="@+id/q5a1"/>
+            <CheckBox style="@style/Answers"
+                android:text="@string/q5a2"
+                android:layoutDirection="ltr"
+                android:id="@+id/q5a2"/>
+            <CheckBox style="@style/Answers"
+                android:text="@string/q5a3"
+                android:layoutDirection="ltr"
+                android:id="@+id/q5a3"/>
+            <CheckBox style="@style/Answers"
+                android:text="@string/q5a4"
+                android:layoutDirection="ltr"
+                android:id="@+id/q5a4"/>
+            <CheckBox style="@style/Answers"
+                android:text="@string/q5a5"
+                android:layoutDirection="ltr"
+                android:id="@+id/q5a5"/>
+        </LinearLayout>
+        <!--Q5 End -->
+
+        <Button android:text="@string/button"
+            style="@style/MyButton"
+            android:onClick="submitTheQuiz"/>
+    </LinearLayout>
+
+</ScrollView>
